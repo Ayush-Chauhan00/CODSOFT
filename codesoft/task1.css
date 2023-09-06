@@ -1,0 +1,412 @@
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/phone.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/mail-open.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/twitter.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/instagram.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/facebook.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/tikcode.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/search.css');
+
+body
+{
+    margin: 0px;
+}
+.head1
+{
+    height: 43px;
+    width: 100vw;
+    background: linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7);
+    display: flex;
+}
+.twit
+{   position: relative;
+    width: 30px;
+    border: 1px solid white;
+    left: 10%;
+    color: white;
+}
+.gg-twitter {
+    position: relative;
+    top: 13px;
+    margin-left: 5px;
+}
+.ins
+{
+    position: relative;
+    border:  1px solid white; 
+    left: 10%;
+    color: white;
+    width: 35px;
+}
+.gg-instagram
+{
+    position: relative;
+    margin-left: 7px;
+    top: 11px;
+}
+.face
+{
+    position: relative;
+    border:  1px solid white; 
+    left: 10%;
+    color: white;
+    width: 30px;
+
+}
+.gg-facebook
+{
+    position: relative;
+    position: relative;
+    top: 10px;
+    margin-left: 4px;
+}
+.phone
+{
+    position: relative;
+    left: 40%;
+}
+.gg-phone
+{
+    position: relative;
+    top: 13px;
+    color: white;
+}
+ #number
+ {
+    position: relative;
+    left: 26%;
+    top: -6px;
+    color: white;
+}
+.mail
+{
+    position: relative;
+    left: 45%;
+    color: white;
+}
+ .gg-mail-open
+ {
+    position: relative;
+    top: 18px;
+    left: 0%
+ }
+#id
+{
+    position: relative;
+    left: 22%;
+    top: -1%;
+}
+
+.btn
+{
+    color: white;
+    width: 121px;
+    height: 33px;
+    position: relative;
+    border: 2px solid white;
+    border-radius: 25%;
+    background-color: transparent;
+    left: 60%;
+    margin-top: 3px;
+}
+:hover.btn
+{
+    background-color: rgb(199, 55, 163);
+}
+.head2
+{
+  display: flex;
+    height: 60px;
+    width: 100vw;
+}
+#header2
+{ position: relative;
+    height: 90%;
+    width: 70px;
+    left: 10%;
+}
+.hed
+{
+    position: relative;
+    left: 10%;
+    top: 30%;
+}
+.text
+{
+    position: relative;
+    height: 90%;
+    left: 10%;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    top: 64%;
+}
+#para
+{
+    padding-left: 0px;
+}
+.homebtn
+{
+    position: relative;
+    background-color: transparent;
+    border: none;
+    font-size: medium;
+}
+
+.dropdown
+{   
+    position: relative;
+    border: none;
+    font-size: medium;
+}
+
+.dropdown1
+{   
+    position: relative;
+    border: none;
+    font-size: medium;
+}
+.services,.contact,.blog,.home,.pages
+{
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 60px;
+    left: 30%;
+    margin-left: 25px;
+    border: none;
+}
+.servicebtn
+{
+    position: relative;
+    background-color: transparent;
+    border: none;
+    font-size: medium;
+}
+
+.contactbtn
+{
+    position: relative;
+    background-color: transparent;
+    border: none;
+    font-size: medium;
+}
+.services:hover
+{
+    background-color: #f9ce34;
+}
+.contact:hover
+{
+    background-color: #f9ce34;
+}.home:hover
+{
+    background-color: #f9ce34;
+}
+.search
+{
+    width: 30px;
+        display: flex;
+        position: relative;
+        left: 40%;
+        transition: width 0.5s;
+        cursor: pointer;
+        background-color: whitesmoke;
+        border-radius: 40px;
+        box-shadow: 5px 5px 5px whitesmoke;
+}
+.search:hover{
+    width: 150px;
+}
+.gg-search
+{
+    top: 22px;
+    position: relative;
+    left: 9px;
+}
+.slideshow
+{
+    position: relative;
+    height: 500px;
+    width: 100vw;
+    justify-items: center;
+}
+.image
+{
+ position: relative;
+ height: 100%;
+ width: 100%;   
+animation-name: fade;
+animation-duration: 2s;
+  }
+
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+img
+    {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.heading
+{
+    display: flex;
+    position: absolute;
+    top: 55%;
+    left: 3%;
+}
+.heading h1{
+font-size: 35px;
+font-family: "Gill Sans", sans-serif;
+text-decoration: underline overline;
+color: white;
+opacity: 0.8;
+}
+
+.text
+{
+    position: absolute;
+    display: flex;
+    top: 65%;
+    left: 3%;
+    height: 25%;
+    width: 90%;
+}
+.text p{
+    color: rgb(245, 245, 245);
+    opacity: 0.7;
+      
+}
+.btn2 {
+    display: flex;
+    position: absolute;
+    height: 31px;
+    width: 115px;
+    top: 86%;
+    left: 3%;
+    padding-top: 7px;
+    border-radius: 13px;
+    padding-left: 23px;
+    background: linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7);
+    opacity: 0.5; 
+}
+.belowslideshow
+{
+    display: flex;
+    height: 150px;
+    width: 100vw;
+    background: linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7);
+    gap: 190px;
+}
+h2,p
+{
+    color: white;
+    padding-left:12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.first
+{
+    margin-left: 64px;
+position: relative;
+height: 100%;
+width: 20%;
+}
+.second
+{
+    margin-left: 15px;
+position: relative;
+height: 100%;
+width: 20%;
+}
+.third
+{
+    margin-left: 15px;
+position: relative;
+height: 100%;
+width: 20%;
+}
+.aboutus
+{
+    display: flex;
+    height: 360px;
+    width: 1050px;
+    margin-left: 280px;
+    align-self: center;
+    gap: 46px;
+}
+.aboutdiv1
+{
+  height: 100%;
+  width: 50%;
+}
+.aboutdiv1 h1 
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+   
+}
+#abouthed
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: medium;
+color: black;
+}
+#aboutpara
+{
+color: black;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: medium;
+}
+.aboutdiv2
+{
+    height: 100%;
+    margin-left: 30px;
+}
+.ourservices
+{
+    height: 350px;
+    width: 100vw;
+    background-color:whitesmoke;
+}
+#ourservicesheading
+{
+    position: relative;
+    top: 6%;
+    left: 20%;
+    text-decoration: underline;
+}
+.boxourservices
+{
+    display: flex;
+    position: relative;
+    height: 69%;
+    width: 56%;
+    margin: auto;
+    top: 5%;
+    gap: 5px;
+}
+.box1
+{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    box-shadow: 5px 5px 5px #b8b2b4;
+    transition: transform 0.6s;
+}
+.box2
+{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    transition: scale 0.6s;
+    box-shadow: 5px 5px 5px #b8b2b4;
+    transition: transform 0.6s;
+}
+.box1:hover
+{
+    transform: translateY(-10px);
+}
+.box2:hover
+{
+    transform: translateY(-10px);
+}
